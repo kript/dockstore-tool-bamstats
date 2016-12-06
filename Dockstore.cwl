@@ -5,7 +5,7 @@ id: "BAMStats"
 label: "BAMStats tool"
 cwlVersion: v1.0 
 doc: |
-    ![build_status](https://quay.io/kript/dockstore-tool-bamstats/status)
+    ![build_status](https://quay.io/jc18_sanger/dockstore-tool-bamstats/status)
     A Docker container for the BAMStats command. See the [BAMStats](http://bamstats.sourceforge.net/) website for more information.
 
 dct:creator:
@@ -14,7 +14,7 @@ dct:creator:
 
 requirements:
   - class: DockerRequirement
-    dockerPull: "quay.io/kript/dockstore-tool-bamstats:1.25-7"
+    dockerPull: "quay.io/jc18_sanger/dockstore-tool-bamstats:1.25-8"
 
 hints:
   - class: ResourceRequirement 
