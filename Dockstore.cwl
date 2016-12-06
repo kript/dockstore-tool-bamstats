@@ -5,17 +5,16 @@ id: "BAMStats"
 label: "BAMStats tool"
 cwlVersion: v1.0 
 doc: |
-    ![build_status](https://quay.io/repository/collaboratory/dockstore-tool-bamstats/status)
+    ![build_status](https://quay.io/kript/dockstore-tool-bamstats/status)
     A Docker container for the BAMStats command. See the [BAMStats](http://bamstats.sourceforge.net/) website for more information.
 
 dct:creator:
-  "@id": "http://orcid.org/0000-0002-7681-6415"
-  foaf:name: Brian O'Connor
-  foaf:mbox: "mailto:briandoconnor@gmail.com"
+  foaf:name: John Constable
+  foaf:mbox: "mailto:john.constable@sanger.ac.uk"
 
 requirements:
   - class: DockerRequirement
-    dockerPull: "quay.io/collaboratory/dockstore-tool-bamstats:1.25-6_1.0"
+    dockerPull: "quay.io/kript/dockstore-tool-bamstats:1.25-7"
 
 hints:
   - class: ResourceRequirement 
